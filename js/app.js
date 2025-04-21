@@ -4,7 +4,7 @@ const Color = (path) => {
 }
 
 
-// TABLE
+//--------------------------------------------------------
 const tBodyEl = document.querySelector("tbody");
 
 let item = 0;
@@ -76,7 +76,7 @@ const data = [
     }
 ]
 
-// USER CARD
+//---------------------------------------
 const userCardEl = document.querySelector(".user_card");
 
 userCardEl.addEventListener("click", () => {
